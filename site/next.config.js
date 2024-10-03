@@ -2,10 +2,10 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'MrGasha Registry',
+    description: 'My custom workspaces',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://mrgasha.github.io/mrgasha-registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
