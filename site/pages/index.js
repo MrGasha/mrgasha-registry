@@ -73,12 +73,6 @@ export default function Home({ searchText }) {
             <span className='flex px-3 text-xs opacity-100'>Workspaces</span>
             <span className='text-white p-3 py-1 flex bg-[#2980b9]'>{workspaces && workspaces.workspacecount}</span>
           </span>
-          <span className='flex items-center text-lg bg-slate-100/90 rounded overflow-hidden shadow'>
-            <span className='flex px-3 text-xs opacity-100'>Kasm Version</span>
-            <span className='text-white gap-3 p-3 py-1 flex items-center bg-[#2980b9]'>{versions && versions.map((v) => (
-              <div className={'cursor-pointer ' + (+v === +version ? 'text-white' : 'text-white/50 text-xs')} key={v} onClick={() => updateVersion(v)}>{v}</div>
-            ))}</span>
-          </span>
         </h1>
         <div className="flex flex-wrap gap-1 justify-center">
         {filteredworkspaces && filteredworkspaces.length > 0 && filteredworkspaces.map(function (workspace, i) {
