@@ -6,7 +6,7 @@ const nextConfig = {
     description: 'My favorites custom workspaces',
     icon: '/img/logo.svg',
     listUrl: 'https://mrgasha.github.io/mrgasha-registry/',
-    contactUrl: 'https://kasmweb.com/support',
+    contactUrl: 'https://mrgasha.com',
   },
   reactStrictMode: true,
   swcMinify: true,
