@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  output: 'export',
-  distDir: '../public',
   env: {
     name: 'MrGasha Registry',
     description: 'My favorites custom workspaces',
